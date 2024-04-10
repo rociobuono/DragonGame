@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+ body { /*#0a0a23 #224C53 */
+  background-color: #7E8188;
+}
+#startPage {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+#logo {
+  height: 300px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+#btnStart {
+  text-align: center;
+  font-family: "MedievalSharp", cursive;
+  color: #224C53;
+  font-size: 50px;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+  
+}
+#text {
+  background-color: #0a0a23;
+  color: #ffffff;
+  padding: 10px;
+}
+
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: #ffffff;
+  color: #ffffff;
+  margin: 30px auto 0px;
+  padding: 10px;
+  display: none;
+}
+
+#controls,
+#stats {
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #0a0a23;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #c70d0d;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: #397A6E;
+  background: linear-gradient(to bottom, #224C53 0%, #397A6E 50%, #439082 100%);
+  border: 3px solid #397A6E;
+}
